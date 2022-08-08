@@ -1,0 +1,15 @@
+id: CutString
+name: CutString
+version: 2.0
+description: 文字列の一部を削除するプラグイン
+author_name: skyarc
+author_link: https://product.skyarc.co.jp/engineerblog/entry/2640.html
+doc_link: https://product.skyarc.co.jp/engineerblog/entry/2640.html
+
+tags:
+    modifier:
+        cutbefore: $CutString::CutString::Tags::_hdlr_cutbefore
+        cutnext: $CutString::CutString::Tags::_hdlr_cutnext
+        cutstring: $CutString::CutString::Tags::_hdlr_cutstring
+        cuttag: $CutString::CutString::Tags::_hdlr_cuttag
+        getstr: $CutString::CutString::Tags::_hdlr_getstring
